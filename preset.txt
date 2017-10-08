@@ -1,0 +1,1 @@
+preset.ball_and_stick(selection='all', mode=1)

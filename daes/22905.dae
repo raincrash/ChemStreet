@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>PyMOL User</author>
+      <authoring_tool>PyMOL 2.0.3</authoring_tool>
+    </contributor>
+    <created>2017-10-08T11:27:02</created>
+    <modified>2017-10-08T11:27:02</modified>
+    <unit meter="1e-10" name="Angstrom"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <yfov>20.0000</yfov>
+            <aspect_ratio>1.3445</aspect_ratio>
+            <znear>57.5450</znear>
+            <zfar>88.4327</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+    </camera>
+  </library_cameras>
+  <library_geometries>
+    <geometry id="geom0">
+      <mesh>
+        <source id="geom0-mesh-positions">
+          <float_array id="geom0-mesh-positions-array" count="60">3.7497 -0.8294 0.4555 2.5556 -0.0673 -0.1233 3.8105 -0.7418 0.4453 2.6164 0.0203 -0.1335 3.8337 -0.6579 0.5078 2.6396 0.1042 -0.0710 3.8057 -0.6269 0.6065 2.6116 0.1352 0.0277 3.7428 -0.6669 0.6835 2.5487 0.0952 0.1047 3.6820 -0.7545 0.6937 2.4879 0.0076 0.1149 3.6588 -0.8384 0.6312 2.4647 -0.0763 0.0524 3.6868 -0.8694 0.5325 2.4927 -0.1073 -0.0463 3.7497 -0.8294 0.4555 2.5556 -0.0673 -0.1233 3.8227 -0.7970 0.6066 2.4757 0.0628 -0.0464 </float_array>
+          <technique_common>
+            <accessor source="#geom0-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom0-mesh-normals">
+          <float_array id="geom0-mesh-normals-array" count="33">0.0243 -0.5802 -0.8141 0.4590 0.0454 -0.8873 0.6249 0.6445 -0.4407 0.4247 0.8660 0.2641 -0.0243 0.5802 0.8141 -0.4590 -0.0454 0.8873 -0.6249 -0.6445 0.4407 -0.4247 -0.8660 -0.2641 0.0243 -0.5802 -0.8141 0.7803 -0.4980 0.3782 -0.7803 0.4980 -0.3782 </float_array>
+          <technique_common>
+            <accessor source="#geom0-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom0-mesh-colors">
+          <float_array id="geom0-mesh-colors-array" count="60">1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 </float_array>
+          <technique_common>
+            <accessor source="#geom0-mesh-colors-array" count="20" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom0-mesh-vertices">
+          <input semantic="POSITION" source="#geom0-mesh-positions"/>
+        </vertices>
+        <polylist count="8" material="geom0-material">
+          <input offset="0" semantic="VERTEX" source="#geom0-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom0-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom0-mesh-colors"/>
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 1 0 1 3 1 3 2 1 2 2 1 2 3 1 3 5 2 5 4 2 4 4 2 4 5 2 5 7 3 7 6 3 6 6 3 6 7 3 7 9 4 9 8 4 8 8 4 8 9 4 9 11 5 11 10 5 10 10 5 10 11 5 11 13 6 13 12 6 12 12 6 12 13 6 13 15 7 15 14 7 14 14 7 14 15 7 15 17 8 17 16 8 16 </p>
+        </polylist>
+        <triangles count="8" material="geom0-material">
+          <input offset="0" semantic="VERTEX" source="#geom0-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom0-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom0-mesh-colors"/>
+          <p>18 9 18 0 0 0 2 1 2 18 9 18 2 1 2 4 2 4 18 9 18 4 2 4 6 3 6 18 9 18 6 3 6 8 4 8 18 9 18 8 4 8 10 5 10 18 9 18 10 5 10 12 6 12 18 9 18 12 6 12 14 7 14 18 9 18 14 7 14 16 8 16 </p>
+        </triangles>
+        <triangles count="8" material="geom0-material">
+          <input offset="0" semantic="VERTEX" source="#geom0-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom0-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom0-mesh-colors"/>
+          <p>19 10 19 3 1 3 1 0 1 19 10 19 5 2 5 3 1 3 19 10 19 7 3 7 5 2 5 19 10 19 9 4 9 7 3 7 19 10 19 11 5 11 9 4 9 19 10 19 13 6 13 11 5 11 19 10 19 15 7 15 13 6 13 19 10 19 17 8 17 15 7 15 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom1">
+      <mesh>
+        <source id="geom1-mesh-positions">
+          <float_array id="geom1-mesh-positions-array" count="60">1.4354 -0.9851 -0.0953 2.5726 -0.0317 0.1377 1.3711 -0.9027 -0.1189 2.5083 0.0508 0.1140 1.3453 -0.8500 -0.2086 2.4825 0.1034 0.0244 1.3731 -0.8579 -0.3117 2.5103 0.0955 -0.0788 1.4382 -0.9218 -0.3680 2.5754 0.0317 -0.1351 1.5025 -1.0042 -0.3444 2.6397 -0.0508 -0.1114 1.5283 -1.0569 -0.2547 2.6655 -0.1034 -0.0218 1.5005 -1.0490 -0.1515 2.6377 -0.0955 0.0814 1.4354 -0.9851 -0.0953 2.5726 -0.0317 0.1377 1.3626 -1.0157 -0.2468 2.5740 0.0000 0.0013 </float_array>
+          <technique_common>
+            <accessor source="#geom1-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom1-mesh-normals">
+          <float_array id="geom1-mesh-normals-array" count="33">-0.0099 -0.2261 0.9741 -0.4690 0.3626 0.8053 -0.6533 0.7389 0.1649 -0.4549 0.6824 -0.5722 0.0099 0.2261 -0.9741 0.4690 -0.3626 -0.8053 0.6533 -0.7389 -0.1649 0.4549 -0.6824 0.5722 -0.0099 -0.2261 0.9741 -0.7570 -0.6347 -0.1551 0.7570 0.6347 0.1551 </float_array>
+          <technique_common>
+            <accessor source="#geom1-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom1-mesh-colors">
+          <float_array id="geom1-mesh-colors-array" count="60">1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 </float_array>
+          <technique_common>
+            <accessor source="#geom1-mesh-colors-array" count="20" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom1-mesh-vertices">
+          <input semantic="POSITION" source="#geom1-mesh-positions"/>
+        </vertices>
+        <polylist count="8" material="geom1-material">
+          <input offset="0" semantic="VERTEX" source="#geom1-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom1-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom1-mesh-colors"/>
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 1 0 1 3 1 3 2 1 2 2 1 2 3 1 3 5 2 5 4 2 4 4 2 4 5 2 5 7 3 7 6 3 6 6 3 6 7 3 7 9 4 9 8 4 8 8 4 8 9 4 9 11 5 11 10 5 10 10 5 10 11 5 11 13 6 13 12 6 12 12 6 12 13 6 13 15 7 15 14 7 14 14 7 14 15 7 15 17 8 17 16 8 16 </p>
+        </polylist>
+        <triangles count="8" material="geom1-material">
+          <input offset="0" semantic="VERTEX" source="#geom1-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom1-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom1-mesh-colors"/>
+          <p>18 9 18 0 0 0 2 1 2 18 9 18 2 1 2 4 2 4 18 9 18 4 2 4 6 3 6 18 9 18 6 3 6 8 4 8 18 9 18 8 4 8 10 5 10 18 9 18 10 5 10 12 6 12 18 9 18 12 6 12 14 7 14 18 9 18 14 7 14 16 8 16 </p>
+        </triangles>
+        <triangles count="8" material="geom1-material">
+          <input offset="0" semantic="VERTEX" source="#geom1-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom1-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom1-mesh-colors"/>
+          <p>19 10 19 3 1 3 1 0 1 19 10 19 5 2 5 3 1 3 19 10 19 7 3 7 5 2 5 19 10 19 9 4 9 7 3 7 19 10 19 11 5 11 9 4 9 19 10 19 13 6 13 11 5 11 19 10 19 15 7 15 13 6 13 19 10 19 17 8 17 15 7 15 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom2">
+      <mesh>
+        <source id="geom2-mesh-positions">
+          <float_array id="geom2-mesh-positions-array" count="60">2.9760 0.6036 -1.2953 2.5823 -0.0298 0.0022 3.0158 0.5884 -1.2906 2.6221 -0.0449 0.0069 3.0361 0.5524 -1.3021 2.6424 -0.0809 -0.0045 3.0249 0.5167 -1.3229 2.6312 -0.1167 -0.0254 2.9889 0.5021 -1.3409 2.5952 -0.1313 -0.0434 2.9491 0.5173 -1.3456 2.5554 -0.1161 -0.0481 2.9288 0.5533 -1.3342 2.5351 -0.0801 -0.0367 2.9400 0.5890 -1.3134 2.5463 -0.0444 -0.0158 2.9760 0.6036 -1.2953 2.5823 -0.0298 0.0022 2.9928 0.5695 -1.3521 2.5785 -0.0971 0.0134 </float_array>
+          <technique_common>
+            <accessor source="#geom2-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom2-mesh-normals">
+          <float_array id="geom2-mesh-normals-array" count="33">-0.1151 0.9060 0.4073 0.5960 0.6354 0.4910 0.9579 -0.0074 0.2870 0.7587 -0.6459 -0.0851 0.1151 -0.9060 -0.4073 -0.5960 -0.6354 -0.4910 -0.9579 0.0074 -0.2870 -0.7587 0.6459 0.0851 -0.1151 0.9060 0.4073 0.2631 0.4232 -0.8670 -0.2631 -0.4232 0.8670 </float_array>
+          <technique_common>
+            <accessor source="#geom2-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom2-mesh-colors">
+          <float_array id="geom2-mesh-colors-array" count="60">1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 </float_array>
+          <technique_common>
+            <accessor source="#geom2-mesh-colors-array" count="20" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom2-mesh-vertices">
+          <input semantic="POSITION" source="#geom2-mesh-positions"/>
+        </vertices>
+        <polylist count="8" material="geom2-material">
+          <input offset="0" semantic="VERTEX" source="#geom2-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom2-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom2-mesh-colors"/>
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 1 0 1 3 1 3 2 1 2 2 1 2 3 1 3 5 2 5 4 2 4 4 2 4 5 2 5 7 3 7 6 3 6 6 3 6 7 3 7 9 4 9 8 4 8 8 4 8 9 4 9 11 5 11 10 5 10 10 5 10 11 5 11 13 6 13 12 6 12 12 6 12 13 6 13 15 7 15 14 7 14 14 7 14 15 7 15 17 8 17 16 8 16 </p>
+        </polylist>
+        <triangles count="8" material="geom2-material">
+          <input offset="0" semantic="VERTEX" source="#geom2-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom2-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom2-mesh-colors"/>
+          <p>18 9 18 0 0 0 2 1 2 18 9 18 2 1 2 4 2 4 18 9 18 4 2 4 6 3 6 18 9 18 6 3 6 8 4 8 18 9 18 8 4 8 10 5 10 18 9 18 10 5 10 12 6 12 18 9 18 12 6 12 14 7 14 18 9 18 14 7 14 16 8 16 </p>
+        </triangles>
+        <triangles count="8" material="geom2-material">
+          <input offset="0" semantic="VERTEX" source="#geom2-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom2-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom2-mesh-colors"/>
+          <p>19 10 19 3 1 3 1 0 1 19 10 19 5 2 5 3 1 3 19 10 19 7 3 7 5 2 5 19 10 19 9 4 9 7 3 7 19 10 19 11 5 11 9 4 9 19 10 19 13 6 13 11 5 11 19 10 19 15 7 15 13 6 13 19 10 19 17 8 17 15 7 15 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom3">
+      <mesh>
+        <source id="geom3-mesh-positions">
+          <float_array id="geom3-mesh-positions-array" count="60">2.9406 0.7552 -1.2321 2.5469 0.1218 0.0654 2.9804 0.7400 -1.2274 2.5867 0.1066 0.0701 3.0007 0.7040 -1.2388 2.6070 0.0706 0.0587 2.9895 0.6683 -1.2597 2.5958 0.0349 0.0379 2.9535 0.6537 -1.2777 2.5598 0.0203 0.0198 2.9137 0.6688 -1.2824 2.5200 0.0355 0.0151 2.8934 0.7048 -1.2710 2.4997 0.0715 0.0266 2.9046 0.7406 -1.2501 2.5109 0.1072 0.0474 2.9406 0.7552 -1.2321 2.5469 0.1218 0.0654 2.9573 0.7210 -1.2889 2.5430 0.0544 0.0766 </float_array>
+          <technique_common>
+            <accessor source="#geom3-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom3-mesh-normals">
+          <float_array id="geom3-mesh-normals-array" count="33">-0.1151 0.9060 0.4073 0.5960 0.6354 0.4910 0.9579 -0.0074 0.2870 0.7587 -0.6459 -0.0851 0.1151 -0.9060 -0.4073 -0.5960 -0.6354 -0.4910 -0.9579 0.0074 -0.2870 -0.7587 0.6459 0.0851 -0.1151 0.9060 0.4073 0.2631 0.4232 -0.8670 -0.2631 -0.4232 0.8670 </float_array>
+          <technique_common>
+            <accessor source="#geom3-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom3-mesh-colors">
+          <float_array id="geom3-mesh-colors-array" count="60">1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 </float_array>
+          <technique_common>
+            <accessor source="#geom3-mesh-colors-array" count="20" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom3-mesh-vertices">
+          <input semantic="POSITION" source="#geom3-mesh-positions"/>
+        </vertices>
+        <polylist count="8" material="geom3-material">
+          <input offset="0" semantic="VERTEX" source="#geom3-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom3-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom3-mesh-colors"/>
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 1 0 1 3 1 3 2 1 2 2 1 2 3 1 3 5 2 5 4 2 4 4 2 4 5 2 5 7 3 7 6 3 6 6 3 6 7 3 7 9 4 9 8 4 8 8 4 8 9 4 9 11 5 11 10 5 10 10 5 10 11 5 11 13 6 13 12 6 12 12 6 12 13 6 13 15 7 15 14 7 14 14 7 14 15 7 15 17 8 17 16 8 16 </p>
+        </polylist>
+        <triangles count="8" material="geom3-material">
+          <input offset="0" semantic="VERTEX" source="#geom3-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom3-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom3-mesh-colors"/>
+          <p>18 9 18 0 0 0 2 1 2 18 9 18 2 1 2 4 2 4 18 9 18 4 2 4 6 3 6 18 9 18 6 3 6 8 4 8 18 9 18 8 4 8 10 5 10 18 9 18 10 5 10 12 6 12 18 9 18 12 6 12 14 7 14 18 9 18 14 7 14 16 8 16 </p>
+        </triangles>
+        <triangles count="8" material="geom3-material">
+          <input offset="0" semantic="VERTEX" source="#geom3-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom3-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom3-mesh-colors"/>
+          <p>19 10 19 3 1 3 1 0 1 19 10 19 5 2 5 3 1 3 19 10 19 7 3 7 5 2 5 19 10 19 9 4 9 7 3 7 19 10 19 11 5 11 9 4 9 19 10 19 13 6 13 11 5 11 19 10 19 15 7 15 13 6 13 19 10 19 17 8 17 15 7 15 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom4">
+      <mesh>
+        <source id="geom4-mesh-positions">
+          <float_array id="geom4-mesh-positions-array" count="60">2.5580 -0.0302 0.0100 2.1293 1.0317 0.9736 2.5971 -0.0304 0.0276 2.1684 1.0315 0.9913 2.6158 -0.0519 0.0597 2.1870 1.0100 1.0233 2.6031 -0.0821 0.0873 2.1744 0.9798 1.0509 2.5665 -0.1033 0.0944 2.1378 0.9586 1.0580 2.5275 -0.1031 0.0768 2.0988 0.9588 1.0404 2.5088 -0.0816 0.0448 2.0801 0.9803 1.0084 2.5214 -0.0514 0.0171 2.0927 1.0105 0.9807 2.5580 -0.0302 0.0100 2.1293 1.0317 0.9736 2.5735 -0.0945 0.0270 2.1223 1.0230 1.0411 </float_array>
+          <technique_common>
+            <accessor source="#geom4-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom4-mesh-normals">
+          <float_array id="geom4-mesh-normals-array" count="33">-0.0762 0.6530 -0.7535 0.6215 0.6491 -0.4387 0.9551 0.2649 0.1330 0.7292 -0.2745 0.6269 0.0762 -0.6530 0.7535 -0.6215 -0.6491 0.4387 -0.9551 -0.2649 -0.1330 -0.7292 0.2745 -0.6269 -0.0762 0.6530 -0.7535 0.2864 -0.7095 -0.6438 -0.2864 0.7095 0.6438 </float_array>
+          <technique_common>
+            <accessor source="#geom4-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom4-mesh-colors">
+          <float_array id="geom4-mesh-colors-array" count="60">1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 </float_array>
+          <technique_common>
+            <accessor source="#geom4-mesh-colors-array" count="20" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom4-mesh-vertices">
+          <input semantic="POSITION" source="#geom4-mesh-positions"/>
+        </vertices>
+        <polylist count="8" material="geom4-material">
+          <input offset="0" semantic="VERTEX" source="#geom4-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom4-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom4-mesh-colors"/>
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 1 0 1 3 1 3 2 1 2 2 1 2 3 1 3 5 2 5 4 2 4 4 2 4 5 2 5 7 3 7 6 3 6 6 3 6 7 3 7 9 4 9 8 4 8 8 4 8 9 4 9 11 5 11 10 5 10 10 5 10 11 5 11 13 6 13 12 6 12 12 6 12 13 6 13 15 7 15 14 7 14 14 7 14 15 7 15 17 8 17 16 8 16 </p>
+        </polylist>
+        <triangles count="8" material="geom4-material">
+          <input offset="0" semantic="VERTEX" source="#geom4-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom4-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom4-mesh-colors"/>
+          <p>18 9 18 0 0 0 2 1 2 18 9 18 2 1 2 4 2 4 18 9 18 4 2 4 6 3 6 18 9 18 6 3 6 8 4 8 18 9 18 8 4 8 10 5 10 18 9 18 10 5 10 12 6 12 18 9 18 12 6 12 14 7 14 18 9 18 14 7 14 16 8 16 </p>
+        </triangles>
+        <triangles count="8" material="geom4-material">
+          <input offset="0" semantic="VERTEX" source="#geom4-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom4-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom4-mesh-colors"/>
+          <p>19 10 19 3 1 3 1 0 1 19 10 19 5 2 5 3 1 3 19 10 19 7 3 7 5 2 5 19 10 19 9 4 9 7 3 7 19 10 19 11 5 11 9 4 9 19 10 19 13 6 13 11 5 11 19 10 19 15 7 15 13 6 13 19 10 19 17 8 17 15 7 15 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom5">
+      <mesh>
+        <source id="geom5-mesh-positions">
+          <float_array id="geom5-mesh-positions-array" count="60">2.5879 0.0874 -0.1062 2.1592 1.1493 0.8574 2.6269 0.0872 -0.0886 2.1982 1.1491 0.8750 2.6456 0.0657 -0.0566 2.2169 1.1276 0.9070 2.6330 0.0355 -0.0289 2.2043 1.0974 0.9347 2.5964 0.0143 -0.0218 2.1677 1.0762 0.9418 2.5573 0.0145 -0.0395 2.1286 1.0764 0.9242 2.5387 0.0360 -0.0715 2.1099 1.0979 0.8921 2.5513 0.0662 -0.0991 2.1226 1.1281 0.8645 2.5879 0.0874 -0.1062 2.1592 1.1493 0.8574 2.6034 0.0230 -0.0893 2.1522 1.1405 0.9248 </float_array>
+          <technique_common>
+            <accessor source="#geom5-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom5-mesh-normals">
+          <float_array id="geom5-mesh-normals-array" count="33">-0.0762 0.6530 -0.7535 0.6215 0.6491 -0.4387 0.9551 0.2649 0.1330 0.7292 -0.2745 0.6269 0.0762 -0.6530 0.7535 -0.6215 -0.6491 0.4387 -0.9551 -0.2649 -0.1330 -0.7292 0.2745 -0.6269 -0.0762 0.6530 -0.7535 0.2864 -0.7095 -0.6438 -0.2864 0.7095 0.6438 </float_array>
+          <technique_common>
+            <accessor source="#geom5-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom5-mesh-colors">
+          <float_array id="geom5-mesh-colors-array" count="60">1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 </float_array>
+          <technique_common>
+            <accessor source="#geom5-mesh-colors-array" count="20" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom5-mesh-vertices">
+          <input semantic="POSITION" source="#geom5-mesh-positions"/>
+        </vertices>
+        <polylist count="8" material="geom5-material">
+          <input offset="0" semantic="VERTEX" source="#geom5-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom5-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom5-mesh-colors"/>
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 1 0 1 3 1 3 2 1 2 2 1 2 3 1 3 5 2 5 4 2 4 4 2 4 5 2 5 7 3 7 6 3 6 6 3 6 7 3 7 9 4 9 8 4 8 8 4 8 9 4 9 11 5 11 10 5 10 10 5 10 11 5 11 13 6 13 12 6 12 12 6 12 13 6 13 15 7 15 14 7 14 14 7 14 15 7 15 17 8 17 16 8 16 </p>
+        </polylist>
+        <triangles count="8" material="geom5-material">
+          <input offset="0" semantic="VERTEX" source="#geom5-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom5-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom5-mesh-colors"/>
+          <p>18 9 18 0 0 0 2 1 2 18 9 18 2 1 2 4 2 4 18 9 18 4 2 4 6 3 6 18 9 18 6 3 6 8 4 8 18 9 18 8 4 8 10 5 10 18 9 18 10 5 10 12 6 12 18 9 18 12 6 12 14 7 14 18 9 18 14 7 14 16 8 16 </p>
+        </triangles>
+        <triangles count="8" material="geom5-material">
+          <input offset="0" semantic="VERTEX" source="#geom5-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom5-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom5-mesh-colors"/>
+          <p>19 10 19 3 1 3 1 0 1 19 10 19 5 2 5 3 1 3 19 10 19 7 3 7 5 2 5 19 10 19 9 4 9 7 3 7 19 10 19 11 5 11 9 4 9 19 10 19 13 6 13 11 5 11 19 10 19 15 7 15 13 6 13 19 10 19 17 8 17 15 7 15 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom6">
+      <mesh>
+        <source id="geom6-mesh-positions">
+          <float_array id="geom6-mesh-positions-array" count="360">-12.6333 0.0000 0.3761 -12.7308 0.2250 0.3574 -12.8699 0.0000 0.4433 -13.0090 0.2250 0.3574 -13.1065 0.0000 0.3761 -13.2340 0.1391 0.2183 -13.2340 -0.1391 0.2183 -13.3199 0.0000 -0.0067 -13.2527 -0.2366 -0.0067 -13.2340 -0.1391 -0.2317 -13.0949 -0.3641 -0.1458 -13.0090 -0.2250 -0.3708 -12.8699 -0.3828 -0.2433 -12.7308 -0.2250 -0.3708 -12.6449 -0.3641 -0.1458 -12.5058 -0.1391 -0.2317 -12.4871 -0.2366 -0.0067 -12.4199 0.0000 -0.0067 -12.5058 -0.1391 0.2183 -12.5058 0.1391 0.2183 -12.6333 0.0000 0.3761 -12.7308 0.2250 0.3574 -12.6333 0.0000 0.3761 -12.8699 0.0000 0.4433 -12.7308 -0.2250 0.3574 -13.0090 -0.2250 0.3574 -12.8699 -0.3828 0.2299 -13.0949 -0.3641 0.1324 -12.8699 -0.4500 -0.0067 -13.0949 -0.3641 -0.1458 -12.8699 -0.3828 -0.2433 -12.6333 0.0000 -0.3895 -12.8699 0.0000 -0.4567 -12.7308 0.2250 -0.3708 -13.0090 0.2250 -0.3708 -12.8699 0.3828 -0.2433 -13.0949 0.3641 -0.1458 -12.8699 0.4500 -0.0067 -13.0949 0.3641 0.1324 -12.8699 0.3828 0.2299 -13.0090 0.2250 0.3574 -12.7308 0.2250 0.3574 -12.6333 0.0000 -0.3895 -12.7308 -0.2250 -0.3708 -12.8699 0.0000 -0.4567 -13.0090 -0.2250 -0.3708 -13.1065 0.0000 -0.3895 -13.2340 -0.1391 -0.2317 -13.2340 0.1391 -0.2317 -13.3199 0.0000 -0.0067 -13.2527 0.2366 -0.0067 -13.2340 0.1391 0.2183 -13.0949 0.3641 0.1324 -13.0090 0.2250 0.3574 -12.5058 0.1391 0.2183 -12.4199 0.0000 -0.0067 -12.4871 0.2366 -0.0067 -12.5058 0.1391 -0.2317 -12.6449 0.3641 -0.1458 -12.7308 0.2250 -0.3708 -12.8699 0.3828 -0.2433 -12.8699 0.3828 0.2299 -12.6449 0.3641 0.1324 -12.8699 0.4500 -0.0067 -12.6449 0.3641 -0.1458 -12.8699 0.3828 -0.2433 -12.8699 -0.3828 0.2299 -12.8699 -0.4500 -0.0067 -12.6449 -0.3641 0.1324 -12.6449 -0.3641 -0.1458 -12.4871 -0.2366 -0.0067 -12.8699 0.3828 0.2299 -12.7308 0.2250 0.3574 -12.6449 0.3641 0.1324 -12.5058 0.1391 0.2183 -12.4871 0.2366 -0.0067 -12.6333 0.0000 0.3761 -12.7308 -0.2250 0.3574 -12.5058 -0.1391 0.2183 -12.6449 -0.3641 0.1324 -12.4871 -0.2366 -0.0067 -12.7308 -0.2250 -0.3708 -12.6333 0.0000 -0.3895 -12.5058 -0.1391 -0.2317 -12.5058 0.1391 -0.2317 -12.4199 0.0000 -0.0067 -13.1065 0.0000 -0.3895 -13.2340 0.1391 -0.2317 -13.0090 0.2250 -0.3708 -13.0949 0.3641 -0.1458 -13.1065 0.0000 0.3761 -13.2340 -0.1391 0.2183 -13.0090 -0.2250 0.3574 -13.0949 -0.3641 0.1324 -12.8699 0.0000 0.4433 -13.1065 0.0000 0.3761 -13.0090 -0.2250 0.3574 -12.8699 0.0000 -0.4567 -13.1065 0.0000 -0.3895 -13.0090 0.2250 -0.3708 -12.6449 0.3641 0.1324 -12.4871 0.2366 -0.0067 -12.6449 0.3641 -0.1458 -13.0949 0.3641 0.1324 -13.0949 0.3641 -0.1458 -13.2527 0.2366 -0.0067 -13.2340 0.1391 -0.2317 -12.8699 -0.4500 -0.0067 -12.8699 -0.3828 -0.2433 -12.6449 -0.3641 -0.1458 -13.0949 -0.3641 -0.1458 -13.0949 -0.3641 0.1324 -13.2527 -0.2366 -0.0067 -13.2340 -0.1391 0.2183 -12.5058 0.1391 -0.2317 -12.6333 0.0000 -0.3895 -12.7308 0.2250 -0.3708 -12.7308 -0.2250 0.3574 -12.8699 -0.3828 0.2299 -12.6449 -0.3641 0.1324 </float_array>
+          <technique_common>
+            <accessor source="#geom6-mesh-positions-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom6-mesh-normals">
+          <float_array id="geom6-mesh-normals-array" count="360">0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.0000 0.0000 1.0000 -0.3090 0.5000 0.8090 -0.5257 0.0000 0.8507 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.5000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 -0.5000 -0.5000 -0.8090 -0.3090 -0.3090 -0.5000 -0.8090 0.0000 -0.8507 -0.5257 0.3090 -0.5000 -0.8090 0.5000 -0.8090 -0.3090 0.8090 -0.3090 -0.5000 0.8507 -0.5257 0.0000 1.0000 0.0000 0.0000 0.8090 -0.3090 0.5000 0.8090 0.3090 0.5000 0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.5257 0.0000 0.8507 0.0000 0.0000 1.0000 0.3090 -0.5000 0.8090 -0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 -0.5000 -0.8090 0.3090 0.0000 -1.0000 0.0000 -0.5000 -0.8090 -0.3090 0.0000 -0.8507 -0.5257 0.5257 0.0000 -0.8507 0.0000 0.0000 -1.0000 0.3090 0.5000 -0.8090 -0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 -0.5000 0.8090 -0.3090 0.0000 1.0000 0.0000 -0.5000 0.8090 0.3090 0.0000 0.8507 0.5257 -0.3090 0.5000 0.8090 0.3090 0.5000 0.8090 0.5257 0.0000 -0.8507 0.3090 -0.5000 -0.8090 0.0000 0.0000 -1.0000 -0.3090 -0.5000 -0.8090 -0.5257 0.0000 -0.8507 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.5000 -1.0000 0.0000 0.0000 -0.8507 0.5257 0.0000 -0.8090 0.3090 0.5000 -0.5000 0.8090 0.3090 -0.3090 0.5000 0.8090 0.8090 0.3090 0.5000 1.0000 0.0000 0.0000 0.8507 0.5257 0.0000 0.8090 0.3090 -0.5000 0.5000 0.8090 -0.3090 0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 0.0000 0.8507 0.5257 0.5000 0.8090 0.3090 0.0000 1.0000 0.0000 0.5000 0.8090 -0.3090 0.0000 0.8507 -0.5257 0.0000 -0.8507 0.5257 0.0000 -1.0000 0.0000 0.5000 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.8507 -0.5257 0.0000 0.0000 0.8507 0.5257 0.3090 0.5000 0.8090 0.5000 0.8090 0.3090 0.8090 0.3090 0.5000 0.8507 0.5257 0.0000 0.5257 0.0000 0.8507 0.3090 -0.5000 0.8090 0.8090 -0.3090 0.5000 0.5000 -0.8090 0.3090 0.8507 -0.5257 0.0000 0.3090 -0.5000 -0.8090 0.5257 0.0000 -0.8507 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 1.0000 0.0000 0.0000 -0.5257 0.0000 -0.8507 -0.8090 0.3090 -0.5000 -0.3090 0.5000 -0.8090 -0.5000 0.8090 -0.3090 -0.5257 0.0000 0.8507 -0.8090 -0.3090 0.5000 -0.3090 -0.5000 0.8090 -0.5000 -0.8090 0.3090 0.0000 0.0000 1.0000 -0.5257 0.0000 0.8507 -0.3090 -0.5000 0.8090 0.0000 0.0000 -1.0000 -0.5257 0.0000 -0.8507 -0.3090 0.5000 -0.8090 0.5000 0.8090 0.3090 0.8507 0.5257 0.0000 0.5000 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 0.8090 -0.3090 -0.8507 0.5257 0.0000 -0.8090 0.3090 -0.5000 0.0000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.5000 -0.8090 -0.3090 -0.5000 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 0.5000 0.8090 0.3090 -0.5000 0.5257 0.0000 -0.8507 0.3090 0.5000 -0.8090 0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 0.5000 -0.8090 0.3090 </float_array>
+          <technique_common>
+            <accessor source="#geom6-mesh-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom6-mesh-colors">
+          <float_array id="geom6-mesh-colors-array" count="3">0.2392 1.0000 0.0000</float_array>
+          <technique_common>
+            <accessor source="#geom6-mesh-colors-array" count="1" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom6-mesh-vertices">
+          <input semantic="POSITION" source="#geom6-mesh-positions"/>
+        </vertices>
+        <tristrips count="20" material="geom6-material">
+          <input offset="0" semantic="VERTEX" source="#geom6-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom6-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom6-mesh-colors"/>
+          <p>0 0 0 1 1 0 2 2 0 3 3 0 4 4 0 5 5 0 6 6 0 7 7 0 8 8 0 9 9 0 10 10 0 11 11 0 12 12 0 13 13 0 14 14 0 15 15 0 16 16 0 17 17 0 18 18 0 19 19 0 20 20 0 21 21 0 </p>
+          <p>22 22 0 23 23 0 24 24 0 25 25 0 26 26 0 27 27 0 28 28 0 29 29 0 30 30 0 </p>
+          <p>31 31 0 32 32 0 33 33 0 34 34 0 35 35 0 36 36 0 37 37 0 38 38 0 39 39 0 40 40 0 41 41 0 </p>
+          <p>42 42 0 43 43 0 44 44 0 45 45 0 46 46 0 47 47 0 48 48 0 49 49 0 50 50 0 51 51 0 52 52 0 53 53 0 </p>
+          <p>54 54 0 55 55 0 56 56 0 57 57 0 58 58 0 59 59 0 60 60 0 </p>
+          <p>61 61 0 62 62 0 63 63 0 64 64 0 65 65 0 </p>
+          <p>66 66 0 67 67 0 68 68 0 69 69 0 70 70 0 </p>
+          <p>71 71 0 72 72 0 73 73 0 74 74 0 75 75 0 </p>
+          <p>76 76 0 77 77 0 78 78 0 79 79 0 80 80 0 </p>
+          <p>81 81 0 82 82 0 83 83 0 84 84 0 85 85 0 </p>
+          <p>86 86 0 87 87 0 88 88 0 89 89 0 </p>
+          <p>90 90 0 91 91 0 92 92 0 93 93 0 </p>
+          <p>94 94 0 95 95 0 96 96 0 </p>
+          <p>97 97 0 98 98 0 99 99 0 </p>
+          <p>100 100 0 101 101 0 102 102 0 </p>
+          <p>103 103 0 104 104 0 105 105 0 106 106 0 </p>
+          <p>107 107 0 108 108 0 109 109 0 </p>
+          <p>110 110 0 111 111 0 112 112 0 113 113 0 </p>
+          <p>114 114 0 115 115 0 116 116 0 </p>
+          <p>117 117 0 118 118 0 119 119 0 </p>
+        </tristrips>
+      </mesh>
+    </geometry>
+    <geometry id="geom7">
+      <mesh>
+        <source id="geom7-mesh-positions">
+          <float_array id="geom7-mesh-positions-array" count="360">3.9242 -0.7342 0.8821 3.8418 -0.5442 0.8663 3.7244 -0.7342 0.9389 3.6070 -0.5442 0.8663 3.5246 -0.7342 0.8821 3.4170 -0.6168 0.7489 3.4170 -0.8516 0.7489 3.3444 -0.7342 0.5589 3.4012 -0.9340 0.5589 3.4170 -0.8516 0.3689 3.5344 -1.0416 0.4415 3.6070 -0.9242 0.2515 3.7244 -1.0574 0.3591 3.8418 -0.9242 0.2515 3.9144 -1.0416 0.4415 4.0318 -0.8516 0.3689 4.0476 -0.9340 0.5589 4.1044 -0.7342 0.5589 4.0318 -0.8516 0.7489 4.0318 -0.6168 0.7489 3.9242 -0.7342 0.8821 3.8418 -0.5442 0.8663 3.9242 -0.7342 0.8821 3.7244 -0.7342 0.9389 3.8418 -0.9242 0.8663 3.6070 -0.9242 0.8663 3.7244 -1.0574 0.7587 3.5344 -1.0416 0.6763 3.7244 -1.1142 0.5589 3.5344 -1.0416 0.4415 3.7244 -1.0574 0.3591 3.9242 -0.7342 0.2357 3.7244 -0.7342 0.1789 3.8418 -0.5442 0.2515 3.6070 -0.5442 0.2515 3.7244 -0.4110 0.3591 3.5344 -0.4268 0.4415 3.7244 -0.3542 0.5589 3.5344 -0.4268 0.6763 3.7244 -0.4110 0.7587 3.6070 -0.5442 0.8663 3.8418 -0.5442 0.8663 3.9242 -0.7342 0.2357 3.8418 -0.9242 0.2515 3.7244 -0.7342 0.1789 3.6070 -0.9242 0.2515 3.5246 -0.7342 0.2357 3.4170 -0.8516 0.3689 3.4170 -0.6168 0.3689 3.3444 -0.7342 0.5589 3.4012 -0.5344 0.5589 3.4170 -0.6168 0.7489 3.5344 -0.4268 0.6763 3.6070 -0.5442 0.8663 4.0318 -0.6168 0.7489 4.1044 -0.7342 0.5589 4.0476 -0.5344 0.5589 4.0318 -0.6168 0.3689 3.9144 -0.4268 0.4415 3.8418 -0.5442 0.2515 3.7244 -0.4110 0.3591 3.7244 -0.4110 0.7587 3.9144 -0.4268 0.6763 3.7244 -0.3542 0.5589 3.9144 -0.4268 0.4415 3.7244 -0.4110 0.3591 3.7244 -1.0574 0.7587 3.7244 -1.1142 0.5589 3.9144 -1.0416 0.6763 3.9144 -1.0416 0.4415 4.0476 -0.9340 0.5589 3.7244 -0.4110 0.7587 3.8418 -0.5442 0.8663 3.9144 -0.4268 0.6763 4.0318 -0.6168 0.7489 4.0476 -0.5344 0.5589 3.9242 -0.7342 0.8821 3.8418 -0.9242 0.8663 4.0318 -0.8516 0.7489 3.9144 -1.0416 0.6763 4.0476 -0.9340 0.5589 3.8418 -0.9242 0.2515 3.9242 -0.7342 0.2357 4.0318 -0.8516 0.3689 4.0318 -0.6168 0.3689 4.1044 -0.7342 0.5589 3.5246 -0.7342 0.2357 3.4170 -0.6168 0.3689 3.6070 -0.5442 0.2515 3.5344 -0.4268 0.4415 3.5246 -0.7342 0.8821 3.4170 -0.8516 0.7489 3.6070 -0.9242 0.8663 3.5344 -1.0416 0.6763 3.7244 -0.7342 0.9389 3.5246 -0.7342 0.8821 3.6070 -0.9242 0.8663 3.7244 -0.7342 0.1789 3.5246 -0.7342 0.2357 3.6070 -0.5442 0.2515 3.9144 -0.4268 0.6763 4.0476 -0.5344 0.5589 3.9144 -0.4268 0.4415 3.5344 -0.4268 0.6763 3.5344 -0.4268 0.4415 3.4012 -0.5344 0.5589 3.4170 -0.6168 0.3689 3.7244 -1.1142 0.5589 3.7244 -1.0574 0.3591 3.9144 -1.0416 0.4415 3.5344 -1.0416 0.4415 3.5344 -1.0416 0.6763 3.4012 -0.9340 0.5589 3.4170 -0.8516 0.7489 4.0318 -0.6168 0.3689 3.9242 -0.7342 0.2357 3.8418 -0.5442 0.2515 3.8418 -0.9242 0.8663 3.7244 -1.0574 0.7587 3.9144 -1.0416 0.6763 </float_array>
+          <technique_common>
+            <accessor source="#geom7-mesh-positions-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom7-mesh-normals">
+          <float_array id="geom7-mesh-normals-array" count="360">0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.0000 0.0000 1.0000 -0.3090 0.5000 0.8090 -0.5257 0.0000 0.8507 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.5000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 -0.5000 -0.5000 -0.8090 -0.3090 -0.3090 -0.5000 -0.8090 0.0000 -0.8507 -0.5257 0.3090 -0.5000 -0.8090 0.5000 -0.8090 -0.3090 0.8090 -0.3090 -0.5000 0.8507 -0.5257 0.0000 1.0000 0.0000 0.0000 0.8090 -0.3090 0.5000 0.8090 0.3090 0.5000 0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.5257 0.0000 0.8507 0.0000 0.0000 1.0000 0.3090 -0.5000 0.8090 -0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 -0.5000 -0.8090 0.3090 0.0000 -1.0000 0.0000 -0.5000 -0.8090 -0.3090 0.0000 -0.8507 -0.5257 0.5257 0.0000 -0.8507 0.0000 0.0000 -1.0000 0.3090 0.5000 -0.8090 -0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 -0.5000 0.8090 -0.3090 0.0000 1.0000 0.0000 -0.5000 0.8090 0.3090 0.0000 0.8507 0.5257 -0.3090 0.5000 0.8090 0.3090 0.5000 0.8090 0.5257 0.0000 -0.8507 0.3090 -0.5000 -0.8090 0.0000 0.0000 -1.0000 -0.3090 -0.5000 -0.8090 -0.5257 0.0000 -0.8507 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.5000 -1.0000 0.0000 0.0000 -0.8507 0.5257 0.0000 -0.8090 0.3090 0.5000 -0.5000 0.8090 0.3090 -0.3090 0.5000 0.8090 0.8090 0.3090 0.5000 1.0000 0.0000 0.0000 0.8507 0.5257 0.0000 0.8090 0.3090 -0.5000 0.5000 0.8090 -0.3090 0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 0.0000 0.8507 0.5257 0.5000 0.8090 0.3090 0.0000 1.0000 0.0000 0.5000 0.8090 -0.3090 0.0000 0.8507 -0.5257 0.0000 -0.8507 0.5257 0.0000 -1.0000 0.0000 0.5000 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.8507 -0.5257 0.0000 0.0000 0.8507 0.5257 0.3090 0.5000 0.8090 0.5000 0.8090 0.3090 0.8090 0.3090 0.5000 0.8507 0.5257 0.0000 0.5257 0.0000 0.8507 0.3090 -0.5000 0.8090 0.8090 -0.3090 0.5000 0.5000 -0.8090 0.3090 0.8507 -0.5257 0.0000 0.3090 -0.5000 -0.8090 0.5257 0.0000 -0.8507 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 1.0000 0.0000 0.0000 -0.5257 0.0000 -0.8507 -0.8090 0.3090 -0.5000 -0.3090 0.5000 -0.8090 -0.5000 0.8090 -0.3090 -0.5257 0.0000 0.8507 -0.8090 -0.3090 0.5000 -0.3090 -0.5000 0.8090 -0.5000 -0.8090 0.3090 0.0000 0.0000 1.0000 -0.5257 0.0000 0.8507 -0.3090 -0.5000 0.8090 0.0000 0.0000 -1.0000 -0.5257 0.0000 -0.8507 -0.3090 0.5000 -0.8090 0.5000 0.8090 0.3090 0.8507 0.5257 0.0000 0.5000 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 0.8090 -0.3090 -0.8507 0.5257 0.0000 -0.8090 0.3090 -0.5000 0.0000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.5000 -0.8090 -0.3090 -0.5000 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 0.5000 0.8090 0.3090 -0.5000 0.5257 0.0000 -0.8507 0.3090 0.5000 -0.8090 0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 0.5000 -0.8090 0.3090 </float_array>
+          <technique_common>
+            <accessor source="#geom7-mesh-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom7-mesh-colors">
+          <float_array id="geom7-mesh-colors-array" count="3">1.0000 0.3000 0.3000</float_array>
+          <technique_common>
+            <accessor source="#geom7-mesh-colors-array" count="1" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom7-mesh-vertices">
+          <input semantic="POSITION" source="#geom7-mesh-positions"/>
+        </vertices>
+        <tristrips count="20" material="geom7-material">
+          <input offset="0" semantic="VERTEX" source="#geom7-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom7-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom7-mesh-colors"/>
+          <p>0 0 0 1 1 0 2 2 0 3 3 0 4 4 0 5 5 0 6 6 0 7 7 0 8 8 0 9 9 0 10 10 0 11 11 0 12 12 0 13 13 0 14 14 0 15 15 0 16 16 0 17 17 0 18 18 0 19 19 0 20 20 0 21 21 0 </p>
+          <p>22 22 0 23 23 0 24 24 0 25 25 0 26 26 0 27 27 0 28 28 0 29 29 0 30 30 0 </p>
+          <p>31 31 0 32 32 0 33 33 0 34 34 0 35 35 0 36 36 0 37 37 0 38 38 0 39 39 0 40 40 0 41 41 0 </p>
+          <p>42 42 0 43 43 0 44 44 0 45 45 0 46 46 0 47 47 0 48 48 0 49 49 0 50 50 0 51 51 0 52 52 0 53 53 0 </p>
+          <p>54 54 0 55 55 0 56 56 0 57 57 0 58 58 0 59 59 0 60 60 0 </p>
+          <p>61 61 0 62 62 0 63 63 0 64 64 0 65 65 0 </p>
+          <p>66 66 0 67 67 0 68 68 0 69 69 0 70 70 0 </p>
+          <p>71 71 0 72 72 0 73 73 0 74 74 0 75 75 0 </p>
+          <p>76 76 0 77 77 0 78 78 0 79 79 0 80 80 0 </p>
+          <p>81 81 0 82 82 0 83 83 0 84 84 0 85 85 0 </p>
+          <p>86 86 0 87 87 0 88 88 0 89 89 0 </p>
+          <p>90 90 0 91 91 0 92 92 0 93 93 0 </p>
+          <p>94 94 0 95 95 0 96 96 0 </p>
+          <p>97 97 0 98 98 0 99 99 0 </p>
+          <p>100 100 0 101 101 0 102 102 0 </p>
+          <p>103 103 0 104 104 0 105 105 0 106 106 0 </p>
+          <p>107 107 0 108 108 0 109 109 0 </p>
+          <p>110 110 0 111 111 0 112 112 0 113 113 0 </p>
+          <p>114 114 0 115 115 0 116 116 0 </p>
+          <p>117 117 0 118 118 0 119 119 0 </p>
+        </tristrips>
+      </mesh>
+    </geometry>
+    <geometry id="geom8">
+      <mesh>
+        <source id="geom8-mesh-positions">
+          <float_array id="geom8-mesh-positions-array" count="360">1.6578 -0.9357 0.0959 1.5754 -0.7457 0.0801 1.4580 -0.9357 0.1527 1.3406 -0.7457 0.0801 1.2582 -0.9357 0.0959 1.1506 -0.8183 -0.0373 1.1506 -1.0531 -0.0373 1.0780 -0.9357 -0.2273 1.1348 -1.1355 -0.2273 1.1506 -1.0531 -0.4173 1.2680 -1.2431 -0.3447 1.3406 -1.1257 -0.5347 1.4580 -1.2589 -0.4271 1.5754 -1.1257 -0.5347 1.6480 -1.2431 -0.3447 1.7654 -1.0531 -0.4173 1.7812 -1.1355 -0.2273 1.8380 -0.9357 -0.2273 1.7654 -1.0531 -0.0373 1.7654 -0.8183 -0.0373 1.6578 -0.9357 0.0959 1.5754 -0.7457 0.0801 1.6578 -0.9357 0.0959 1.4580 -0.9357 0.1527 1.5754 -1.1257 0.0801 1.3406 -1.1257 0.0801 1.4580 -1.2589 -0.0275 1.2680 -1.2431 -0.1099 1.4580 -1.3157 -0.2273 1.2680 -1.2431 -0.3447 1.4580 -1.2589 -0.4271 1.6578 -0.9357 -0.5505 1.4580 -0.9357 -0.6073 1.5754 -0.7457 -0.5347 1.3406 -0.7457 -0.5347 1.4580 -0.6125 -0.4271 1.2680 -0.6283 -0.3447 1.4580 -0.5557 -0.2273 1.2680 -0.6283 -0.1099 1.4580 -0.6125 -0.0275 1.3406 -0.7457 0.0801 1.5754 -0.7457 0.0801 1.6578 -0.9357 -0.5505 1.5754 -1.1257 -0.5347 1.4580 -0.9357 -0.6073 1.3406 -1.1257 -0.5347 1.2582 -0.9357 -0.5505 1.1506 -1.0531 -0.4173 1.1506 -0.8183 -0.4173 1.0780 -0.9357 -0.2273 1.1348 -0.7359 -0.2273 1.1506 -0.8183 -0.0373 1.2680 -0.6283 -0.1099 1.3406 -0.7457 0.0801 1.7654 -0.8183 -0.0373 1.8380 -0.9357 -0.2273 1.7812 -0.7359 -0.2273 1.7654 -0.8183 -0.4173 1.6480 -0.6283 -0.3447 1.5754 -0.7457 -0.5347 1.4580 -0.6125 -0.4271 1.4580 -0.6125 -0.0275 1.6480 -0.6283 -0.1099 1.4580 -0.5557 -0.2273 1.6480 -0.6283 -0.3447 1.4580 -0.6125 -0.4271 1.4580 -1.2589 -0.0275 1.4580 -1.3157 -0.2273 1.6480 -1.2431 -0.1099 1.6480 -1.2431 -0.3447 1.7812 -1.1355 -0.2273 1.4580 -0.6125 -0.0275 1.5754 -0.7457 0.0801 1.6480 -0.6283 -0.1099 1.7654 -0.8183 -0.0373 1.7812 -0.7359 -0.2273 1.6578 -0.9357 0.0959 1.5754 -1.1257 0.0801 1.7654 -1.0531 -0.0373 1.6480 -1.2431 -0.1099 1.7812 -1.1355 -0.2273 1.5754 -1.1257 -0.5347 1.6578 -0.9357 -0.5505 1.7654 -1.0531 -0.4173 1.7654 -0.8183 -0.4173 1.8380 -0.9357 -0.2273 1.2582 -0.9357 -0.5505 1.1506 -0.8183 -0.4173 1.3406 -0.7457 -0.5347 1.2680 -0.6283 -0.3447 1.2582 -0.9357 0.0959 1.1506 -1.0531 -0.0373 1.3406 -1.1257 0.0801 1.2680 -1.2431 -0.1099 1.4580 -0.9357 0.1527 1.2582 -0.9357 0.0959 1.3406 -1.1257 0.0801 1.4580 -0.9357 -0.6073 1.2582 -0.9357 -0.5505 1.3406 -0.7457 -0.5347 1.6480 -0.6283 -0.1099 1.7812 -0.7359 -0.2273 1.6480 -0.6283 -0.3447 1.2680 -0.6283 -0.1099 1.2680 -0.6283 -0.3447 1.1348 -0.7359 -0.2273 1.1506 -0.8183 -0.4173 1.4580 -1.3157 -0.2273 1.4580 -1.2589 -0.4271 1.6480 -1.2431 -0.3447 1.2680 -1.2431 -0.3447 1.2680 -1.2431 -0.1099 1.1348 -1.1355 -0.2273 1.1506 -1.0531 -0.0373 1.7654 -0.8183 -0.4173 1.6578 -0.9357 -0.5505 1.5754 -0.7457 -0.5347 1.5754 -1.1257 0.0801 1.4580 -1.2589 -0.0275 1.6480 -1.2431 -0.1099 </float_array>
+          <technique_common>
+            <accessor source="#geom8-mesh-positions-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom8-mesh-normals">
+          <float_array id="geom8-mesh-normals-array" count="360">0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.0000 0.0000 1.0000 -0.3090 0.5000 0.8090 -0.5257 0.0000 0.8507 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.5000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 -0.5000 -0.5000 -0.8090 -0.3090 -0.3090 -0.5000 -0.8090 0.0000 -0.8507 -0.5257 0.3090 -0.5000 -0.8090 0.5000 -0.8090 -0.3090 0.8090 -0.3090 -0.5000 0.8507 -0.5257 0.0000 1.0000 0.0000 0.0000 0.8090 -0.3090 0.5000 0.8090 0.3090 0.5000 0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.5257 0.0000 0.8507 0.0000 0.0000 1.0000 0.3090 -0.5000 0.8090 -0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 -0.5000 -0.8090 0.3090 0.0000 -1.0000 0.0000 -0.5000 -0.8090 -0.3090 0.0000 -0.8507 -0.5257 0.5257 0.0000 -0.8507 0.0000 0.0000 -1.0000 0.3090 0.5000 -0.8090 -0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 -0.5000 0.8090 -0.3090 0.0000 1.0000 0.0000 -0.5000 0.8090 0.3090 0.0000 0.8507 0.5257 -0.3090 0.5000 0.8090 0.3090 0.5000 0.8090 0.5257 0.0000 -0.8507 0.3090 -0.5000 -0.8090 0.0000 0.0000 -1.0000 -0.3090 -0.5000 -0.8090 -0.5257 0.0000 -0.8507 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.5000 -1.0000 0.0000 0.0000 -0.8507 0.5257 0.0000 -0.8090 0.3090 0.5000 -0.5000 0.8090 0.3090 -0.3090 0.5000 0.8090 0.8090 0.3090 0.5000 1.0000 0.0000 0.0000 0.8507 0.5257 0.0000 0.8090 0.3090 -0.5000 0.5000 0.8090 -0.3090 0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 0.0000 0.8507 0.5257 0.5000 0.8090 0.3090 0.0000 1.0000 0.0000 0.5000 0.8090 -0.3090 0.0000 0.8507 -0.5257 0.0000 -0.8507 0.5257 0.0000 -1.0000 0.0000 0.5000 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.8507 -0.5257 0.0000 0.0000 0.8507 0.5257 0.3090 0.5000 0.8090 0.5000 0.8090 0.3090 0.8090 0.3090 0.5000 0.8507 0.5257 0.0000 0.5257 0.0000 0.8507 0.3090 -0.5000 0.8090 0.8090 -0.3090 0.5000 0.5000 -0.8090 0.3090 0.8507 -0.5257 0.0000 0.3090 -0.5000 -0.8090 0.5257 0.0000 -0.8507 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 1.0000 0.0000 0.0000 -0.5257 0.0000 -0.8507 -0.8090 0.3090 -0.5000 -0.3090 0.5000 -0.8090 -0.5000 0.8090 -0.3090 -0.5257 0.0000 0.8507 -0.8090 -0.3090 0.5000 -0.3090 -0.5000 0.8090 -0.5000 -0.8090 0.3090 0.0000 0.0000 1.0000 -0.5257 0.0000 0.8507 -0.3090 -0.5000 0.8090 0.0000 0.0000 -1.0000 -0.5257 0.0000 -0.8507 -0.3090 0.5000 -0.8090 0.5000 0.8090 0.3090 0.8507 0.5257 0.0000 0.5000 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 0.8090 -0.3090 -0.8507 0.5257 0.0000 -0.8090 0.3090 -0.5000 0.0000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.5000 -0.8090 -0.3090 -0.5000 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 0.5000 0.8090 0.3090 -0.5000 0.5257 0.0000 -0.8507 0.3090 0.5000 -0.8090 0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 0.5000 -0.8090 0.3090 </float_array>
+          <technique_common>
+            <accessor source="#geom8-mesh-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom8-mesh-colors">
+          <float_array id="geom8-mesh-colors-array" count="3">1.0000 0.3000 0.3000</float_array>
+          <technique_common>
+            <accessor source="#geom8-mesh-colors-array" count="1" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom8-mesh-vertices">
+          <input semantic="POSITION" source="#geom8-mesh-positions"/>
+        </vertices>
+        <tristrips count="20" material="geom8-material">
+          <input offset="0" semantic="VERTEX" source="#geom8-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom8-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom8-mesh-colors"/>
+          <p>0 0 0 1 1 0 2 2 0 3 3 0 4 4 0 5 5 0 6 6 0 7 7 0 8 8 0 9 9 0 10 10 0 11 11 0 12 12 0 13 13 0 14 14 0 15 15 0 16 16 0 17 17 0 18 18 0 19 19 0 20 20 0 21 21 0 </p>
+          <p>22 22 0 23 23 0 24 24 0 25 25 0 26 26 0 27 27 0 28 28 0 29 29 0 30 30 0 </p>
+          <p>31 31 0 32 32 0 33 33 0 34 34 0 35 35 0 36 36 0 37 37 0 38 38 0 39 39 0 40 40 0 41 41 0 </p>
+          <p>42 42 0 43 43 0 44 44 0 45 45 0 46 46 0 47 47 0 48 48 0 49 49 0 50 50 0 51 51 0 52 52 0 53 53 0 </p>
+          <p>54 54 0 55 55 0 56 56 0 57 57 0 58 58 0 59 59 0 60 60 0 </p>
+          <p>61 61 0 62 62 0 63 63 0 64 64 0 65 65 0 </p>
+          <p>66 66 0 67 67 0 68 68 0 69 69 0 70 70 0 </p>
+          <p>71 71 0 72 72 0 73 73 0 74 74 0 75 75 0 </p>
+          <p>76 76 0 77 77 0 78 78 0 79 79 0 80 80 0 </p>
+          <p>81 81 0 82 82 0 83 83 0 84 84 0 85 85 0 </p>
+          <p>86 86 0 87 87 0 88 88 0 89 89 0 </p>
+          <p>90 90 0 91 91 0 92 92 0 93 93 0 </p>
+          <p>94 94 0 95 95 0 96 96 0 </p>
+          <p>97 97 0 98 98 0 99 99 0 </p>
+          <p>100 100 0 101 101 0 102 102 0 </p>
+          <p>103 103 0 104 104 0 105 105 0 106 106 0 </p>
+          <p>107 107 0 108 108 0 109 109 0 </p>
+          <p>110 110 0 111 111 0 112 112 0 113 113 0 </p>
+          <p>114 114 0 115 115 0 116 116 0 </p>
+          <p>117 117 0 118 118 0 119 119 0 </p>
+        </tristrips>
+      </mesh>
+    </geometry>
+    <geometry id="geom9">
+      <mesh>
+        <source id="geom9-mesh-positions">
+          <float_array id="geom9-mesh-positions-array" count="360">3.1616 0.6239 -0.9536 3.0792 0.8139 -0.9694 2.9618 0.6239 -0.8968 2.8444 0.8139 -0.9694 2.7620 0.6239 -0.9536 2.6544 0.7413 -1.0868 2.6544 0.5065 -1.0868 2.5818 0.6239 -1.2768 2.6386 0.4241 -1.2768 2.6544 0.5065 -1.4668 2.7718 0.3165 -1.3942 2.8444 0.4339 -1.5842 2.9618 0.3007 -1.4766 3.0792 0.4339 -1.5842 3.1518 0.3165 -1.3942 3.2692 0.5065 -1.4668 3.2850 0.4241 -1.2768 3.3418 0.6239 -1.2768 3.2692 0.5065 -1.0868 3.2692 0.7413 -1.0868 3.1616 0.6239 -0.9536 3.0792 0.8139 -0.9694 3.1616 0.6239 -0.9536 2.9618 0.6239 -0.8968 3.0792 0.4339 -0.9694 2.8444 0.4339 -0.9694 2.9618 0.3007 -1.0770 2.7718 0.3165 -1.1594 2.9618 0.2439 -1.2768 2.7718 0.3165 -1.3942 2.9618 0.3007 -1.4766 3.1616 0.6239 -1.6000 2.9618 0.6239 -1.6568 3.0792 0.8139 -1.5842 2.8444 0.8139 -1.5842 2.9618 0.9471 -1.4766 2.7718 0.9313 -1.3942 2.9618 1.0039 -1.2768 2.7718 0.9313 -1.1594 2.9618 0.9471 -1.0770 2.8444 0.8139 -0.9694 3.0792 0.8139 -0.9694 3.1616 0.6239 -1.6000 3.0792 0.4339 -1.5842 2.9618 0.6239 -1.6568 2.8444 0.4339 -1.5842 2.7620 0.6239 -1.6000 2.6544 0.5065 -1.4668 2.6544 0.7413 -1.4668 2.5818 0.6239 -1.2768 2.6386 0.8237 -1.2768 2.6544 0.7413 -1.0868 2.7718 0.9313 -1.1594 2.8444 0.8139 -0.9694 3.2692 0.7413 -1.0868 3.3418 0.6239 -1.2768 3.2850 0.8237 -1.2768 3.2692 0.7413 -1.4668 3.1518 0.9313 -1.3942 3.0792 0.8139 -1.5842 2.9618 0.9471 -1.4766 2.9618 0.9471 -1.0770 3.1518 0.9313 -1.1594 2.9618 1.0039 -1.2768 3.1518 0.9313 -1.3942 2.9618 0.9471 -1.4766 2.9618 0.3007 -1.0770 2.9618 0.2439 -1.2768 3.1518 0.3165 -1.1594 3.1518 0.3165 -1.3942 3.2850 0.4241 -1.2768 2.9618 0.9471 -1.0770 3.0792 0.8139 -0.9694 3.1518 0.9313 -1.1594 3.2692 0.7413 -1.0868 3.2850 0.8237 -1.2768 3.1616 0.6239 -0.9536 3.0792 0.4339 -0.9694 3.2692 0.5065 -1.0868 3.1518 0.3165 -1.1594 3.2850 0.4241 -1.2768 3.0792 0.4339 -1.5842 3.1616 0.6239 -1.6000 3.2692 0.5065 -1.4668 3.2692 0.7413 -1.4668 3.3418 0.6239 -1.2768 2.7620 0.6239 -1.6000 2.6544 0.7413 -1.4668 2.8444 0.8139 -1.5842 2.7718 0.9313 -1.3942 2.7620 0.6239 -0.9536 2.6544 0.5065 -1.0868 2.8444 0.4339 -0.9694 2.7718 0.3165 -1.1594 2.9618 0.6239 -0.8968 2.7620 0.6239 -0.9536 2.8444 0.4339 -0.9694 2.9618 0.6239 -1.6568 2.7620 0.6239 -1.6000 2.8444 0.8139 -1.5842 3.1518 0.9313 -1.1594 3.2850 0.8237 -1.2768 3.1518 0.9313 -1.3942 2.7718 0.9313 -1.1594 2.7718 0.9313 -1.3942 2.6386 0.8237 -1.2768 2.6544 0.7413 -1.4668 2.9618 0.2439 -1.2768 2.9618 0.3007 -1.4766 3.1518 0.3165 -1.3942 2.7718 0.3165 -1.3942 2.7718 0.3165 -1.1594 2.6386 0.4241 -1.2768 2.6544 0.5065 -1.0868 3.2692 0.7413 -1.4668 3.1616 0.6239 -1.6000 3.0792 0.8139 -1.5842 3.0792 0.4339 -0.9694 2.9618 0.3007 -1.0770 3.1518 0.3165 -1.1594 </float_array>
+          <technique_common>
+            <accessor source="#geom9-mesh-positions-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom9-mesh-normals">
+          <float_array id="geom9-mesh-normals-array" count="360">0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.0000 0.0000 1.0000 -0.3090 0.5000 0.8090 -0.5257 0.0000 0.8507 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.5000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 -0.5000 -0.5000 -0.8090 -0.3090 -0.3090 -0.5000 -0.8090 0.0000 -0.8507 -0.5257 0.3090 -0.5000 -0.8090 0.5000 -0.8090 -0.3090 0.8090 -0.3090 -0.5000 0.8507 -0.5257 0.0000 1.0000 0.0000 0.0000 0.8090 -0.3090 0.5000 0.8090 0.3090 0.5000 0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.5257 0.0000 0.8507 0.0000 0.0000 1.0000 0.3090 -0.5000 0.8090 -0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 -0.5000 -0.8090 0.3090 0.0000 -1.0000 0.0000 -0.5000 -0.8090 -0.3090 0.0000 -0.8507 -0.5257 0.5257 0.0000 -0.8507 0.0000 0.0000 -1.0000 0.3090 0.5000 -0.8090 -0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 -0.5000 0.8090 -0.3090 0.0000 1.0000 0.0000 -0.5000 0.8090 0.3090 0.0000 0.8507 0.5257 -0.3090 0.5000 0.8090 0.3090 0.5000 0.8090 0.5257 0.0000 -0.8507 0.3090 -0.5000 -0.8090 0.0000 0.0000 -1.0000 -0.3090 -0.5000 -0.8090 -0.5257 0.0000 -0.8507 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.5000 -1.0000 0.0000 0.0000 -0.8507 0.5257 0.0000 -0.8090 0.3090 0.5000 -0.5000 0.8090 0.3090 -0.3090 0.5000 0.8090 0.8090 0.3090 0.5000 1.0000 0.0000 0.0000 0.8507 0.5257 0.0000 0.8090 0.3090 -0.5000 0.5000 0.8090 -0.3090 0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 0.0000 0.8507 0.5257 0.5000 0.8090 0.3090 0.0000 1.0000 0.0000 0.5000 0.8090 -0.3090 0.0000 0.8507 -0.5257 0.0000 -0.8507 0.5257 0.0000 -1.0000 0.0000 0.5000 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.8507 -0.5257 0.0000 0.0000 0.8507 0.5257 0.3090 0.5000 0.8090 0.5000 0.8090 0.3090 0.8090 0.3090 0.5000 0.8507 0.5257 0.0000 0.5257 0.0000 0.8507 0.3090 -0.5000 0.8090 0.8090 -0.3090 0.5000 0.5000 -0.8090 0.3090 0.8507 -0.5257 0.0000 0.3090 -0.5000 -0.8090 0.5257 0.0000 -0.8507 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 1.0000 0.0000 0.0000 -0.5257 0.0000 -0.8507 -0.8090 0.3090 -0.5000 -0.3090 0.5000 -0.8090 -0.5000 0.8090 -0.3090 -0.5257 0.0000 0.8507 -0.8090 -0.3090 0.5000 -0.3090 -0.5000 0.8090 -0.5000 -0.8090 0.3090 0.0000 0.0000 1.0000 -0.5257 0.0000 0.8507 -0.3090 -0.5000 0.8090 0.0000 0.0000 -1.0000 -0.5257 0.0000 -0.8507 -0.3090 0.5000 -0.8090 0.5000 0.8090 0.3090 0.8507 0.5257 0.0000 0.5000 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 0.8090 -0.3090 -0.8507 0.5257 0.0000 -0.8090 0.3090 -0.5000 0.0000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.5000 -0.8090 -0.3090 -0.5000 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 0.5000 0.8090 0.3090 -0.5000 0.5257 0.0000 -0.8507 0.3090 0.5000 -0.8090 0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 0.5000 -0.8090 0.3090 </float_array>
+          <technique_common>
+            <accessor source="#geom9-mesh-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom9-mesh-colors">
+          <float_array id="geom9-mesh-colors-array" count="3">1.0000 0.3000 0.3000</float_array>
+          <technique_common>
+            <accessor source="#geom9-mesh-colors-array" count="1" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom9-mesh-vertices">
+          <input semantic="POSITION" source="#geom9-mesh-positions"/>
+        </vertices>
+        <tristrips count="20" material="geom9-material">
+          <input offset="0" semantic="VERTEX" source="#geom9-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom9-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom9-mesh-colors"/>
+          <p>0 0 0 1 1 0 2 2 0 3 3 0 4 4 0 5 5 0 6 6 0 7 7 0 8 8 0 9 9 0 10 10 0 11 11 0 12 12 0 13 13 0 14 14 0 15 15 0 16 16 0 17 17 0 18 18 0 19 19 0 20 20 0 21 21 0 </p>
+          <p>22 22 0 23 23 0 24 24 0 25 25 0 26 26 0 27 27 0 28 28 0 29 29 0 30 30 0 </p>
+          <p>31 31 0 32 32 0 33 33 0 34 34 0 35 35 0 36 36 0 37 37 0 38 38 0 39 39 0 40 40 0 41 41 0 </p>
+          <p>42 42 0 43 43 0 44 44 0 45 45 0 46 46 0 47 47 0 48 48 0 49 49 0 50 50 0 51 51 0 52 52 0 53 53 0 </p>
+          <p>54 54 0 55 55 0 56 56 0 57 57 0 58 58 0 59 59 0 60 60 0 </p>
+          <p>61 61 0 62 62 0 63 63 0 64 64 0 65 65 0 </p>
+          <p>66 66 0 67 67 0 68 68 0 69 69 0 70 70 0 </p>
+          <p>71 71 0 72 72 0 73 73 0 74 74 0 75 75 0 </p>
+          <p>76 76 0 77 77 0 78 78 0 79 79 0 80 80 0 </p>
+          <p>81 81 0 82 82 0 83 83 0 84 84 0 85 85 0 </p>
+          <p>86 86 0 87 87 0 88 88 0 89 89 0 </p>
+          <p>90 90 0 91 91 0 92 92 0 93 93 0 </p>
+          <p>94 94 0 95 95 0 96 96 0 </p>
+          <p>97 97 0 98 98 0 99 99 0 </p>
+          <p>100 100 0 101 101 0 102 102 0 </p>
+          <p>103 103 0 104 104 0 105 105 0 106 106 0 </p>
+          <p>107 107 0 108 108 0 109 109 0 </p>
+          <p>110 110 0 111 111 0 112 112 0 113 113 0 </p>
+          <p>114 114 0 115 115 0 116 116 0 </p>
+          <p>117 117 0 118 118 0 119 119 0 </p>
+        </tristrips>
+      </mesh>
+    </geometry>
+    <geometry id="geom10">
+      <mesh>
+        <source id="geom10-mesh-positions">
+          <float_array id="geom10-mesh-positions-array" count="360">2.8106 0.0000 0.3841 2.7131 0.2250 0.3654 2.5740 0.0000 0.4513 2.4349 0.2250 0.3654 2.3374 0.0000 0.3841 2.2099 0.1391 0.2263 2.2099 -0.1391 0.2263 2.1240 0.0000 0.0013 2.1912 -0.2366 0.0013 2.2099 -0.1391 -0.2237 2.3490 -0.3641 -0.1378 2.4349 -0.2250 -0.3628 2.5740 -0.3828 -0.2353 2.7131 -0.2250 -0.3628 2.7990 -0.3641 -0.1378 2.9381 -0.1391 -0.2237 2.9568 -0.2366 0.0013 3.0240 0.0000 0.0013 2.9381 -0.1391 0.2263 2.9381 0.1391 0.2263 2.8106 0.0000 0.3841 2.7131 0.2250 0.3654 2.8106 0.0000 0.3841 2.5740 0.0000 0.4513 2.7131 -0.2250 0.3654 2.4349 -0.2250 0.3654 2.5740 -0.3828 0.2379 2.3490 -0.3641 0.1404 2.5740 -0.4500 0.0013 2.3490 -0.3641 -0.1378 2.5740 -0.3828 -0.2353 2.8106 0.0000 -0.3815 2.5740 0.0000 -0.4487 2.7131 0.2250 -0.3628 2.4349 0.2250 -0.3628 2.5740 0.3828 -0.2353 2.3490 0.3641 -0.1378 2.5740 0.4500 0.0013 2.3490 0.3641 0.1404 2.5740 0.3828 0.2379 2.4349 0.2250 0.3654 2.7131 0.2250 0.3654 2.8106 0.0000 -0.3815 2.7131 -0.2250 -0.3628 2.5740 0.0000 -0.4487 2.4349 -0.2250 -0.3628 2.3374 0.0000 -0.3815 2.2099 -0.1391 -0.2237 2.2099 0.1391 -0.2237 2.1240 0.0000 0.0013 2.1912 0.2366 0.0013 2.2099 0.1391 0.2263 2.3490 0.3641 0.1404 2.4349 0.2250 0.3654 2.9381 0.1391 0.2263 3.0240 0.0000 0.0013 2.9568 0.2366 0.0013 2.9381 0.1391 -0.2237 2.7990 0.3641 -0.1378 2.7131 0.2250 -0.3628 2.5740 0.3828 -0.2353 2.5740 0.3828 0.2379 2.7990 0.3641 0.1404 2.5740 0.4500 0.0013 2.7990 0.3641 -0.1378 2.5740 0.3828 -0.2353 2.5740 -0.3828 0.2379 2.5740 -0.4500 0.0013 2.7990 -0.3641 0.1404 2.7990 -0.3641 -0.1378 2.9568 -0.2366 0.0013 2.5740 0.3828 0.2379 2.7131 0.2250 0.3654 2.7990 0.3641 0.1404 2.9381 0.1391 0.2263 2.9568 0.2366 0.0013 2.8106 0.0000 0.3841 2.7131 -0.2250 0.3654 2.9381 -0.1391 0.2263 2.7990 -0.3641 0.1404 2.9568 -0.2366 0.0013 2.7131 -0.2250 -0.3628 2.8106 0.0000 -0.3815 2.9381 -0.1391 -0.2237 2.9381 0.1391 -0.2237 3.0240 0.0000 0.0013 2.3374 0.0000 -0.3815 2.2099 0.1391 -0.2237 2.4349 0.2250 -0.3628 2.3490 0.3641 -0.1378 2.3374 0.0000 0.3841 2.2099 -0.1391 0.2263 2.4349 -0.2250 0.3654 2.3490 -0.3641 0.1404 2.5740 0.0000 0.4513 2.3374 0.0000 0.3841 2.4349 -0.2250 0.3654 2.5740 0.0000 -0.4487 2.3374 0.0000 -0.3815 2.4349 0.2250 -0.3628 2.7990 0.3641 0.1404 2.9568 0.2366 0.0013 2.7990 0.3641 -0.1378 2.3490 0.3641 0.1404 2.3490 0.3641 -0.1378 2.1912 0.2366 0.0013 2.2099 0.1391 -0.2237 2.5740 -0.4500 0.0013 2.5740 -0.3828 -0.2353 2.7990 -0.3641 -0.1378 2.3490 -0.3641 -0.1378 2.3490 -0.3641 0.1404 2.1912 -0.2366 0.0013 2.2099 -0.1391 0.2263 2.9381 0.1391 -0.2237 2.8106 0.0000 -0.3815 2.7131 0.2250 -0.3628 2.7131 -0.2250 0.3654 2.5740 -0.3828 0.2379 2.7990 -0.3641 0.1404 </float_array>
+          <technique_common>
+            <accessor source="#geom10-mesh-positions-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom10-mesh-normals">
+          <float_array id="geom10-mesh-normals-array" count="360">0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.0000 0.0000 1.0000 -0.3090 0.5000 0.8090 -0.5257 0.0000 0.8507 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.5000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 -0.5000 -0.5000 -0.8090 -0.3090 -0.3090 -0.5000 -0.8090 0.0000 -0.8507 -0.5257 0.3090 -0.5000 -0.8090 0.5000 -0.8090 -0.3090 0.8090 -0.3090 -0.5000 0.8507 -0.5257 0.0000 1.0000 0.0000 0.0000 0.8090 -0.3090 0.5000 0.8090 0.3090 0.5000 0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.5257 0.0000 0.8507 0.0000 0.0000 1.0000 0.3090 -0.5000 0.8090 -0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 -0.5000 -0.8090 0.3090 0.0000 -1.0000 0.0000 -0.5000 -0.8090 -0.3090 0.0000 -0.8507 -0.5257 0.5257 0.0000 -0.8507 0.0000 0.0000 -1.0000 0.3090 0.5000 -0.8090 -0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 -0.5000 0.8090 -0.3090 0.0000 1.0000 0.0000 -0.5000 0.8090 0.3090 0.0000 0.8507 0.5257 -0.3090 0.5000 0.8090 0.3090 0.5000 0.8090 0.5257 0.0000 -0.8507 0.3090 -0.5000 -0.8090 0.0000 0.0000 -1.0000 -0.3090 -0.5000 -0.8090 -0.5257 0.0000 -0.8507 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.5000 -1.0000 0.0000 0.0000 -0.8507 0.5257 0.0000 -0.8090 0.3090 0.5000 -0.5000 0.8090 0.3090 -0.3090 0.5000 0.8090 0.8090 0.3090 0.5000 1.0000 0.0000 0.0000 0.8507 0.5257 0.0000 0.8090 0.3090 -0.5000 0.5000 0.8090 -0.3090 0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 0.0000 0.8507 0.5257 0.5000 0.8090 0.3090 0.0000 1.0000 0.0000 0.5000 0.8090 -0.3090 0.0000 0.8507 -0.5257 0.0000 -0.8507 0.5257 0.0000 -1.0000 0.0000 0.5000 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.8507 -0.5257 0.0000 0.0000 0.8507 0.5257 0.3090 0.5000 0.8090 0.5000 0.8090 0.3090 0.8090 0.3090 0.5000 0.8507 0.5257 0.0000 0.5257 0.0000 0.8507 0.3090 -0.5000 0.8090 0.8090 -0.3090 0.5000 0.5000 -0.8090 0.3090 0.8507 -0.5257 0.0000 0.3090 -0.5000 -0.8090 0.5257 0.0000 -0.8507 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 1.0000 0.0000 0.0000 -0.5257 0.0000 -0.8507 -0.8090 0.3090 -0.5000 -0.3090 0.5000 -0.8090 -0.5000 0.8090 -0.3090 -0.5257 0.0000 0.8507 -0.8090 -0.3090 0.5000 -0.3090 -0.5000 0.8090 -0.5000 -0.8090 0.3090 0.0000 0.0000 1.0000 -0.5257 0.0000 0.8507 -0.3090 -0.5000 0.8090 0.0000 0.0000 -1.0000 -0.5257 0.0000 -0.8507 -0.3090 0.5000 -0.8090 0.5000 0.8090 0.3090 0.8507 0.5257 0.0000 0.5000 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 0.8090 -0.3090 -0.8507 0.5257 0.0000 -0.8090 0.3090 -0.5000 0.0000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.5000 -0.8090 -0.3090 -0.5000 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 0.5000 0.8090 0.3090 -0.5000 0.5257 0.0000 -0.8507 0.3090 0.5000 -0.8090 0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 0.5000 -0.8090 0.3090 </float_array>
+          <technique_common>
+            <accessor source="#geom10-mesh-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom10-mesh-colors">
+          <float_array id="geom10-mesh-colors-array" count="3">0.9000 0.7750 0.2500</float_array>
+          <technique_common>
+            <accessor source="#geom10-mesh-colors-array" count="1" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom10-mesh-vertices">
+          <input semantic="POSITION" source="#geom10-mesh-positions"/>
+        </vertices>
+        <tristrips count="20" material="geom10-material">
+          <input offset="0" semantic="VERTEX" source="#geom10-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom10-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom10-mesh-colors"/>
+          <p>0 0 0 1 1 0 2 2 0 3 3 0 4 4 0 5 5 0 6 6 0 7 7 0 8 8 0 9 9 0 10 10 0 11 11 0 12 12 0 13 13 0 14 14 0 15 15 0 16 16 0 17 17 0 18 18 0 19 19 0 20 20 0 21 21 0 </p>
+          <p>22 22 0 23 23 0 24 24 0 25 25 0 26 26 0 27 27 0 28 28 0 29 29 0 30 30 0 </p>
+          <p>31 31 0 32 32 0 33 33 0 34 34 0 35 35 0 36 36 0 37 37 0 38 38 0 39 39 0 40 40 0 41 41 0 </p>
+          <p>42 42 0 43 43 0 44 44 0 45 45 0 46 46 0 47 47 0 48 48 0 49 49 0 50 50 0 51 51 0 52 52 0 53 53 0 </p>
+          <p>54 54 0 55 55 0 56 56 0 57 57 0 58 58 0 59 59 0 60 60 0 </p>
+          <p>61 61 0 62 62 0 63 63 0 64 64 0 65 65 0 </p>
+          <p>66 66 0 67 67 0 68 68 0 69 69 0 70 70 0 </p>
+          <p>71 71 0 72 72 0 73 73 0 74 74 0 75 75 0 </p>
+          <p>76 76 0 77 77 0 78 78 0 79 79 0 80 80 0 </p>
+          <p>81 81 0 82 82 0 83 83 0 84 84 0 85 85 0 </p>
+          <p>86 86 0 87 87 0 88 88 0 89 89 0 </p>
+          <p>90 90 0 91 91 0 92 92 0 93 93 0 </p>
+          <p>94 94 0 95 95 0 96 96 0 </p>
+          <p>97 97 0 98 98 0 99 99 0 </p>
+          <p>100 100 0 101 101 0 102 102 0 </p>
+          <p>103 103 0 104 104 0 105 105 0 106 106 0 </p>
+          <p>107 107 0 108 108 0 109 109 0 </p>
+          <p>110 110 0 111 111 0 112 112 0 113 113 0 </p>
+          <p>114 114 0 115 115 0 116 116 0 </p>
+          <p>117 117 0 118 118 0 119 119 0 </p>
+        </tristrips>
+      </mesh>
+    </geometry>
+    <geometry id="geom11">
+      <mesh>
+        <source id="geom11-mesh-positions">
+          <float_array id="geom11-mesh-positions-array" count="360">2.3515 1.0460 1.2737 2.2691 1.2360 1.2579 2.1517 1.0460 1.3305 2.0343 1.2360 1.2579 1.9519 1.0460 1.2737 1.8443 1.1634 1.1405 1.8443 0.9286 1.1405 1.7717 1.0460 0.9505 1.8285 0.8462 0.9505 1.8443 0.9286 0.7605 1.9617 0.7386 0.8331 2.0343 0.8560 0.6431 2.1517 0.7228 0.7507 2.2691 0.8560 0.6431 2.3417 0.7386 0.8331 2.4591 0.9286 0.7605 2.4749 0.8462 0.9505 2.5317 1.0460 0.9505 2.4591 0.9286 1.1405 2.4591 1.1634 1.1405 2.3515 1.0460 1.2737 2.2691 1.2360 1.2579 2.3515 1.0460 1.2737 2.1517 1.0460 1.3305 2.2691 0.8560 1.2579 2.0343 0.8560 1.2579 2.1517 0.7228 1.1503 1.9617 0.7386 1.0679 2.1517 0.6660 0.9505 1.9617 0.7386 0.8331 2.1517 0.7228 0.7507 2.3515 1.0460 0.6273 2.1517 1.0460 0.5705 2.2691 1.2360 0.6431 2.0343 1.2360 0.6431 2.1517 1.3692 0.7507 1.9617 1.3534 0.8331 2.1517 1.4260 0.9505 1.9617 1.3534 1.0679 2.1517 1.3692 1.1503 2.0343 1.2360 1.2579 2.2691 1.2360 1.2579 2.3515 1.0460 0.6273 2.2691 0.8560 0.6431 2.1517 1.0460 0.5705 2.0343 0.8560 0.6431 1.9519 1.0460 0.6273 1.8443 0.9286 0.7605 1.8443 1.1634 0.7605 1.7717 1.0460 0.9505 1.8285 1.2458 0.9505 1.8443 1.1634 1.1405 1.9617 1.3534 1.0679 2.0343 1.2360 1.2579 2.4591 1.1634 1.1405 2.5317 1.0460 0.9505 2.4749 1.2458 0.9505 2.4591 1.1634 0.7605 2.3417 1.3534 0.8331 2.2691 1.2360 0.6431 2.1517 1.3692 0.7507 2.1517 1.3692 1.1503 2.3417 1.3534 1.0679 2.1517 1.4260 0.9505 2.3417 1.3534 0.8331 2.1517 1.3692 0.7507 2.1517 0.7228 1.1503 2.1517 0.6660 0.9505 2.3417 0.7386 1.0679 2.3417 0.7386 0.8331 2.4749 0.8462 0.9505 2.1517 1.3692 1.1503 2.2691 1.2360 1.2579 2.3417 1.3534 1.0679 2.4591 1.1634 1.1405 2.4749 1.2458 0.9505 2.3515 1.0460 1.2737 2.2691 0.8560 1.2579 2.4591 0.9286 1.1405 2.3417 0.7386 1.0679 2.4749 0.8462 0.9505 2.2691 0.8560 0.6431 2.3515 1.0460 0.6273 2.4591 0.9286 0.7605 2.4591 1.1634 0.7605 2.5317 1.0460 0.9505 1.9519 1.0460 0.6273 1.8443 1.1634 0.7605 2.0343 1.2360 0.6431 1.9617 1.3534 0.8331 1.9519 1.0460 1.2737 1.8443 0.9286 1.1405 2.0343 0.8560 1.2579 1.9617 0.7386 1.0679 2.1517 1.0460 1.3305 1.9519 1.0460 1.2737 2.0343 0.8560 1.2579 2.1517 1.0460 0.5705 1.9519 1.0460 0.6273 2.0343 1.2360 0.6431 2.3417 1.3534 1.0679 2.4749 1.2458 0.9505 2.3417 1.3534 0.8331 1.9617 1.3534 1.0679 1.9617 1.3534 0.8331 1.8285 1.2458 0.9505 1.8443 1.1634 0.7605 2.1517 0.6660 0.9505 2.1517 0.7228 0.7507 2.3417 0.7386 0.8331 1.9617 0.7386 0.8331 1.9617 0.7386 1.0679 1.8285 0.8462 0.9505 1.8443 0.9286 1.1405 2.4591 1.1634 0.7605 2.3515 1.0460 0.6273 2.2691 1.2360 0.6431 2.2691 0.8560 1.2579 2.1517 0.7228 1.1503 2.3417 0.7386 1.0679 </float_array>
+          <technique_common>
+            <accessor source="#geom11-mesh-positions-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom11-mesh-normals">
+          <float_array id="geom11-mesh-normals-array" count="360">0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.0000 0.0000 1.0000 -0.3090 0.5000 0.8090 -0.5257 0.0000 0.8507 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.5000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 -0.5000 -0.5000 -0.8090 -0.3090 -0.3090 -0.5000 -0.8090 0.0000 -0.8507 -0.5257 0.3090 -0.5000 -0.8090 0.5000 -0.8090 -0.3090 0.8090 -0.3090 -0.5000 0.8507 -0.5257 0.0000 1.0000 0.0000 0.0000 0.8090 -0.3090 0.5000 0.8090 0.3090 0.5000 0.5257 0.0000 0.8507 0.3090 0.5000 0.8090 0.5257 0.0000 0.8507 0.0000 0.0000 1.0000 0.3090 -0.5000 0.8090 -0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 -0.5000 -0.8090 0.3090 0.0000 -1.0000 0.0000 -0.5000 -0.8090 -0.3090 0.0000 -0.8507 -0.5257 0.5257 0.0000 -0.8507 0.0000 0.0000 -1.0000 0.3090 0.5000 -0.8090 -0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 -0.5000 0.8090 -0.3090 0.0000 1.0000 0.0000 -0.5000 0.8090 0.3090 0.0000 0.8507 0.5257 -0.3090 0.5000 0.8090 0.3090 0.5000 0.8090 0.5257 0.0000 -0.8507 0.3090 -0.5000 -0.8090 0.0000 0.0000 -1.0000 -0.3090 -0.5000 -0.8090 -0.5257 0.0000 -0.8507 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.5000 -1.0000 0.0000 0.0000 -0.8507 0.5257 0.0000 -0.8090 0.3090 0.5000 -0.5000 0.8090 0.3090 -0.3090 0.5000 0.8090 0.8090 0.3090 0.5000 1.0000 0.0000 0.0000 0.8507 0.5257 0.0000 0.8090 0.3090 -0.5000 0.5000 0.8090 -0.3090 0.3090 0.5000 -0.8090 0.0000 0.8507 -0.5257 0.0000 0.8507 0.5257 0.5000 0.8090 0.3090 0.0000 1.0000 0.0000 0.5000 0.8090 -0.3090 0.0000 0.8507 -0.5257 0.0000 -0.8507 0.5257 0.0000 -1.0000 0.0000 0.5000 -0.8090 0.3090 0.5000 -0.8090 -0.3090 0.8507 -0.5257 0.0000 0.0000 0.8507 0.5257 0.3090 0.5000 0.8090 0.5000 0.8090 0.3090 0.8090 0.3090 0.5000 0.8507 0.5257 0.0000 0.5257 0.0000 0.8507 0.3090 -0.5000 0.8090 0.8090 -0.3090 0.5000 0.5000 -0.8090 0.3090 0.8507 -0.5257 0.0000 0.3090 -0.5000 -0.8090 0.5257 0.0000 -0.8507 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 1.0000 0.0000 0.0000 -0.5257 0.0000 -0.8507 -0.8090 0.3090 -0.5000 -0.3090 0.5000 -0.8090 -0.5000 0.8090 -0.3090 -0.5257 0.0000 0.8507 -0.8090 -0.3090 0.5000 -0.3090 -0.5000 0.8090 -0.5000 -0.8090 0.3090 0.0000 0.0000 1.0000 -0.5257 0.0000 0.8507 -0.3090 -0.5000 0.8090 0.0000 0.0000 -1.0000 -0.5257 0.0000 -0.8507 -0.3090 0.5000 -0.8090 0.5000 0.8090 0.3090 0.8507 0.5257 0.0000 0.5000 0.8090 -0.3090 -0.5000 0.8090 0.3090 -0.5000 0.8090 -0.3090 -0.8507 0.5257 0.0000 -0.8090 0.3090 -0.5000 0.0000 -1.0000 0.0000 0.0000 -0.8507 -0.5257 0.5000 -0.8090 -0.3090 -0.5000 -0.8090 -0.3090 -0.5000 -0.8090 0.3090 -0.8507 -0.5257 0.0000 -0.8090 -0.3090 0.5000 0.8090 0.3090 -0.5000 0.5257 0.0000 -0.8507 0.3090 0.5000 -0.8090 0.3090 -0.5000 0.8090 0.0000 -0.8507 0.5257 0.5000 -0.8090 0.3090 </float_array>
+          <technique_common>
+            <accessor source="#geom11-mesh-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom11-mesh-colors">
+          <float_array id="geom11-mesh-colors-array" count="3">1.0000 0.3000 0.3000</float_array>
+          <technique_common>
+            <accessor source="#geom11-mesh-colors-array" count="1" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom11-mesh-vertices">
+          <input semantic="POSITION" source="#geom11-mesh-positions"/>
+        </vertices>
+        <tristrips count="20" material="geom11-material">
+          <input offset="0" semantic="VERTEX" source="#geom11-mesh-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#geom11-mesh-normals"/>
+          <input offset="2" semantic="COLOR" source="#geom11-mesh-colors"/>
+          <p>0 0 0 1 1 0 2 2 0 3 3 0 4 4 0 5 5 0 6 6 0 7 7 0 8 8 0 9 9 0 10 10 0 11 11 0 12 12 0 13 13 0 14 14 0 15 15 0 16 16 0 17 17 0 18 18 0 19 19 0 20 20 0 21 21 0 </p>
+          <p>22 22 0 23 23 0 24 24 0 25 25 0 26 26 0 27 27 0 28 28 0 29 29 0 30 30 0 </p>
+          <p>31 31 0 32 32 0 33 33 0 34 34 0 35 35 0 36 36 0 37 37 0 38 38 0 39 39 0 40 40 0 41 41 0 </p>
+          <p>42 42 0 43 43 0 44 44 0 45 45 0 46 46 0 47 47 0 48 48 0 49 49 0 50 50 0 51 51 0 52 52 0 53 53 0 </p>
+          <p>54 54 0 55 55 0 56 56 0 57 57 0 58 58 0 59 59 0 60 60 0 </p>
+          <p>61 61 0 62 62 0 63 63 0 64 64 0 65 65 0 </p>
+          <p>66 66 0 67 67 0 68 68 0 69 69 0 70 70 0 </p>
+          <p>71 71 0 72 72 0 73 73 0 74 74 0 75 75 0 </p>
+          <p>76 76 0 77 77 0 78 78 0 79 79 0 80 80 0 </p>
+          <p>81 81 0 82 82 0 83 83 0 84 84 0 85 85 0 </p>
+          <p>86 86 0 87 87 0 88 88 0 89 89 0 </p>
+          <p>90 90 0 91 91 0 92 92 0 93 93 0 </p>
+          <p>94 94 0 95 95 0 96 96 0 </p>
+          <p>97 97 0 98 98 0 99 99 0 </p>
+          <p>100 100 0 101 101 0 102 102 0 </p>
+          <p>103 103 0 104 104 0 105 105 0 106 106 0 </p>
+          <p>107 107 0 108 108 0 109 109 0 </p>
+          <p>110 110 0 111 111 0 112 112 0 113 113 0 </p>
+          <p>114 114 0 115 115 0 116 116 0 </p>
+          <p>117 117 0 118 118 0 119 119 0 </p>
+        </tristrips>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_effects>
+    <effect id="default-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color sid="ambient">0.5 0.5 0.5 0.140</color>
+            </ambient>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 0.500</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">11.000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">1.000</float>
+            </transparency>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1.000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="bg-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color sid="ambient">0.5 0.5 0.5 0.500</color>
+            </ambient>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="transparency-0.00-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color sid="ambient">0.5 0.5 0.5 0.140</color>
+            </ambient>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 0.500</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">11.000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">1.000</float>
+            </transparency>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1.000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="default-material">
+      <instance_effect url="#default-effect"/>
+    </material>
+    <material id="bg-material">
+      <instance_effect url="#bg-effect"/>
+    </material>
+    <material id="transparency-0.00-material">
+      <instance_effect url="#transparency-0.00-effect"/>
+    </material>
+  </library_materials>
+  <library_visual_scenes>
+    <visual_scene id="scene" name="scene">
+      <node id="node-geom0">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom0">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom0-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom1">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom1-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom2">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom2">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom2-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom3">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom3">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom3-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom4">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom4">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom4-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom5">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom5">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom5-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom6">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom6">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom6-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom7">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom7">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom7-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom8">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom8">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom8-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom9">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom9">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom9-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom10">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom10">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom10-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-geom11">
+        <translate sid="location">0.000 0.000 0.000</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#geom11">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="geom11-material" target="#default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="node-camera">
+        <matrix>
+1.000 0.000 0.000 0.000 
+0.000 1.000 0.000 0.000 
+0.000 0.000 1.000 72.989 
+0.000 0.000 0.000 1.000 </matrix>
+        <scale sid="scale">1 1 1</scale>
+        <instance_camera url="#camera"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#scene"/>
+  </scene>
+</COLLADA>
