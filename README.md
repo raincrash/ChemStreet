@@ -12,7 +12,7 @@ The App extracts chemical names from a large text in real-time and renders the m
 
 - Get real-time text from IOS camera.
 - Find Chemical compounds/molecules/proteins from text.
-  - Locally trained CoreML model
+  - Locally trained CoreML model + AbbyyRtrSDK.framework
   - Wit.AI for processing keywords/traits and extracting entitites
 - Fetch the chemical name and search for information on ChemSpider
 - The backend service takes a .MOL file containing the molecular data and renders into a 3D scene with OpenGL+PyMOL+MeshTool.
@@ -20,6 +20,7 @@ The App extracts chemical names from a large text in real-time and renders the m
 
 ### Demo Included
 
+https://youtu.be/W6PZENy11IY
 
 ### Contents
 mol_to_deb_service is a flask based service for processing extracted text and serving molecule data from ChalkSteet API -- 
