@@ -8,6 +8,18 @@ This is a code bump of scripts, services and IOS Project for HackInOut 2017 subm
 
 ### What does the App Do?
 
+The App extracts chemical names from a large text in real-time and renders the molecules/proteins in an AR environment.
+
+- Get real-time text from IOS camera.
+- Find Chemical compounds/molecules/proteins from text.
+  - Locally trained CoreML model
+  - Wit.AI for processing keywords/traits and extracting entitites
+- Fetch the chemical name and search for information on ChemSpider
+- The backend service takes a .MOL file containing the molecular data and renders into a 3D scene with OpenGL+PyMOL+MeshTool.
+- The rendered .DAE (Collada) files are used to project Chemical formulae as an AR Scene.
+
+### Demo Included
+
 
 ### Contents
 mol_to_deb_service is a flask based service for processing extracted text and serving molecule data from ChalkSteet API -- 
