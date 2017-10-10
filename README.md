@@ -33,7 +33,7 @@ mol2dae.workflow is an OSX AppleScript to automate .mol to .dae conversion.
 daes/ has all the extracted Daes files that can be rendered on AR.
 
 
-Finally, IOS Project is also enclosed.
+Finally, (part of the) IOS Project is also enclosed.
 
 The entity recognision models etc will be uploaded soon.
 
