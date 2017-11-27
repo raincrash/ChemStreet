@@ -23,7 +23,7 @@ The App extracts chemical names from a large text in real-time and renders the m
 - The backend service takes a .MOL file containing the molecular data and renders into a 3D scene with OpenGL+PyMOL+MeshTool.
 - The rendered .DAE (Collada) files are used to project Chemical formulae as an AR Scene.
 
-### Demo Included
+### Demo (YouTube)
 
 
 [![Chemstreet](https://img.youtube.com/vi/W6PZENy11IY/0.jpg)](https://youtu.be/W6PZENy11IY)
