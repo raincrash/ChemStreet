@@ -1,4 +1,8 @@
 # ChemSteet
+
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+
 Rendering Proteins and Molecules on AR
 
 An ARKit iOS project for HackInOut 2017.
