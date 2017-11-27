@@ -25,7 +25,9 @@ The App extracts chemical names from a large text in real-time and renders the m
 
 ### Demo Included
 
-https://youtu.be/W6PZENy11IY
+
+[![Chemstreet](https://img.youtube.com/vi/W6PZENy11IY/0.jpg)](https://youtu.be/W6PZENy11IY)
+
 
 ### Contents
 mol_to_deb_service is a flask based service for processing extracted text and serving molecule data from ChalkSteet API -- 
