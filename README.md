@@ -40,25 +40,21 @@ The App extracts chemical names from a large text in real-time and renders the m
 - `renderScene()` render's with geometrical orientation & rotation of the AR model which is mapped for chemical (DAE chemical model present locally in the asset).
 - Additional information of the chemical model such as `average_mass, molecular_weight, molecular_formula & common_name` are displayed along the AR model in Scene using `SCNText`
 
-## Contents
-mol_to_deb_service is a flask based service for processing extracted text and serving molecule data from ChalkSteet API -- 
-https://vast-dusk-78988.herokuapp.com/process/?q=%22It%20reacts%20with%20hydroxyl%20radical%20(%E2%80%A2OH)%20to%20produce%20a%20radical%20intermediate%20%E2%80%A2HOCO,%20which%20transfers%20rapidly%20its%20radical%20hydrogen%20to%20O2%20to%20form%20peroxy%20radical%20(HO2%E2%80%A2)%20and%20carbon%20dioxide%20(CO2)%22
+## ChemSteet flask service includes
+[`mol_to_deb_service`](https://vast-dusk-78988.herokuapp.com/process/?q=%22It%20reacts%20with%20hydroxyl%20radical%20(%E2%80%A2OH)%20to%20produce%20a%20radical%20intermediate%20%E2%80%A2HOCO,%20which%20transfers%20rapidly%20its%20radical%20hydrogen%20to%20O2%20to%20form%20peroxy%20radical%20(HO2%E2%80%A2)%20and%20carbon%20dioxide%20(CO2)%22) for processing extracted text and serving molecule data from ChalkSteet API.
 
-mol2dae.workflow is an OSX AppleScript to automate .mol to .dae conversion.
+`mol2dae.workflow` an OSX AppleScript to automate .mol to .dae conversion. (`daes/` has all the extracted Daes files that can be rendered on AR.)
 
-daes/ has all the extracted Daes files that can be rendered on AR.
+## ChemStreet AI service includes
 
-Finally, (part of the) IOS Project is also enclosed.
-
-The entity recognition models etc will be uploaded soon.
-
+The entity recognition model etc will be uploaded soon.
 
 
 ## TODO
 
 [ ] Cleanup the project for contributions.
 
-[ ] Make a better readme page.
+[x] Make a better readme page.
 
 ### License and Copyrights
 
