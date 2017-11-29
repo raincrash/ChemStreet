@@ -5,7 +5,7 @@
 
 Rendering Proteins and Molecules on AR
 
-An ARKit iOS project for HackInOut 2017.
+An ARKit iOS project for HackInOut 2017 ([Devpost link](https://devpost.com/software/chemstreet))
 
 This is a code bump of scripts, services and IOS Project for HackInOut 2017 submission. Please ignore the shammy code commits.
 
