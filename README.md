@@ -1,11 +1,12 @@
 # ChemSteet
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Build Status](https://travis-ci.org/raincrash/raincrash.github.io.svg?branch=master)](https://travis-ci.org/raincrash/raincrash.github.io)
 
 
 Rendering Proteins and Molecules on AR
 
-An ARKit iOS project for HackInOut 2017.
+An ARKit iOS project for HackInOut 2017 ([Devpost link](https://devpost.com/software/chemstreet))
 
 This is a code bump of scripts, services and IOS Project for HackInOut 2017 submission. Please ignore the shammy code commits.
 
