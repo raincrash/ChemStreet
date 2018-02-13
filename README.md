@@ -4,6 +4,9 @@
 [![Build Status](https://travis-ci.org/raincrash/raincrash.github.io.svg?branch=master)](https://travis-ci.org/raincrash/raincrash.github.io)
 
 
+![3D Molecule](https://www.hourlybook.com/wp-content/uploads/2016/06/chemical-bonding-1.png)
+
+
 Rendering Proteins and Molecules on AR
 
 An ARKit iOS project for HackInOut 2017 ([Devpost link](https://devpost.com/software/chemstreet))
